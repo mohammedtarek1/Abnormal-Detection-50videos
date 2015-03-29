@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\package_bgs">
+      <UniqueIdentifier>{33a51ee3-37ee-4acc-bb40-af507211b369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package_bgs\pt">
+      <UniqueIdentifier>{0cf1b167-cc5e-42c2-9ea0-066e9169f8de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package_tracking">
+      <UniqueIdentifier>{76f19975-5db3-4aa7-9f3b-a61b2a1f71c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package_analysis">
+      <UniqueIdentifier>{5b717757-7862-498f-8a71-e5069827ce92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package_tracking\cvblob">
+      <UniqueIdentifier>{ee9f6ce4-9ccb-4904-a141-edf67023c740}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\pt\PBAS.cpp">
+      <Filter>Header Files\package_bgs\pt</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\pt\PixelBasedAdaptiveSegmenter.cpp">
+      <Filter>Header Files\package_bgs\pt</Filter>
+    </ClCompile>
+    <ClCompile Include="package_analysis\VehicleCouting.cpp">
+      <Filter>Header Files\package_analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="package_tracking\BlobTracking.cpp">
+      <Filter>Header Files\package_tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="package_tracking\cvblob\cvblob.cpp">
+      <Filter>Header Files\package_tracking\cvblob</Filter>
+    </ClCompile>
+    <ClCompile Include="package_tracking\cvblob\cvcolor.cpp">
+      <Filter>Header Files\package_tracking\cvblob</Filter>
+    </ClCompile>
+    <ClCompile Include="package_tracking\cvblob\cvcontour.cpp">
+      <Filter>Header Files\package_tracking\cvblob</Filter>
+    </ClCompile>
+    <ClCompile Include="package_tracking\cvblob\cvlabel.cpp">
+      <Filter>Header Files\package_tracking\cvblob</Filter>
+    </ClCompile>
+    <ClCompile Include="package_tracking\cvblob\cvtrack.cpp">
+      <Filter>Header Files\package_tracking\cvblob</Filter>
+    </ClCompile>
+    <ClCompile Include="package_tracking\cvblob\cvaux.cpp">
+      <Filter>Header Files\package_tracking\cvblob</Filter>
+    </ClCompile>
+    <ClCompile Include="featureClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="package_bgs\IBGS.h">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\pt\PBAS.h">
+      <Filter>Header Files\package_bgs\pt</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\pt\PixelBasedAdaptiveSegmenter.h">
+      <Filter>Header Files\package_bgs\pt</Filter>
+    </ClInclude>
+    <ClInclude Include="package_analysis\VehicleCouting.h">
+      <Filter>Header Files\package_analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="package_tracking\BlobTracking.h">
+      <Filter>Header Files\package_tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="package_tracking\cvblob\cvblob.h">
+      <Filter>Header Files\package_tracking\cvblob</Filter>
+    </ClInclude>
+    <ClInclude Include="new.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="featureClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

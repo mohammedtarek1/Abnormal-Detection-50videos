@@ -1,0 +1,31 @@
+﻿Build started 3/25/2015 4:59:15 PM.
+     1>Project "C:\Users\mohamedtarek\Desktop\speed_2_2\project.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\OpenCV2.4.4\build\include /IC:\OpenCV2.4.4\build\include\opencv /IC:\boost_1_53_0 /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt Demo.cpp package_analysis\VehicleCouting.cpp package_bgs\pt\PBAS.cpp package_bgs\pt\PixelBasedAdaptiveSegmenter.cpp package_tracking\BlobTracking.cpp package_tracking\cvblob\cvaux.cpp package_tracking\cvblob\cvblob.cpp package_tracking\cvblob\cvcolor.cpp package_tracking\cvblob\cvcontour.cpp package_tracking\cvblob\cvlabel.cpp package_tracking\cvblob\cvtrack.cpp
+         Demo.cpp
+     1>Demo.cpp(2): fatal error C1083: Cannot open include file: 'opencv/cv.h': No such file or directory
+         VehicleCouting.cpp
+     1>c:\users\mohamedtarek\desktop\speed_2_2\package_analysis\VehicleCouting.h(7): fatal error C1083: Cannot open include file: 'opencv2\core\core.hpp': No such file or directory
+         PBAS.cpp
+     1>c:\users\mohamedtarek\desktop\speed_2_2\package_bgs\pt\PBAS.h(40): fatal error C1083: Cannot open include file: 'opencv/cv.h': No such file or directory
+         PixelBasedAdaptiveSegmenter.cpp
+     1>c:\users\mohamedtarek\desktop\speed_2_2\package_bgs\pt\PixelBasedAdaptiveSegmenter.h(4): fatal error C1083: Cannot open include file: 'opencv/cv.h': No such file or directory
+         BlobTracking.cpp
+     1>c:\users\mohamedtarek\desktop\speed_2_2\package_tracking\BlobTracking.h(4): fatal error C1083: Cannot open include file: 'opencv/cv.h': No such file or directory
+         cvaux.cpp
+     1>package_tracking\cvblob\cvaux.cpp(23): fatal error C1083: Cannot open include file: 'opencv/cv.h': No such file or directory
+         cvblob.cpp
+     1>package_tracking\cvblob\cvblob.cpp(25): fatal error C1083: Cannot open include file: 'opencv/cv.h': No such file or directory
+         cvcolor.cpp
+     1>package_tracking\cvblob\cvcolor.cpp(25): fatal error C1083: Cannot open include file: 'opencv/cv.h': No such file or directory
+         cvcontour.cpp
+     1>package_tracking\cvblob\cvcontour.cpp(32): fatal error C1083: Cannot open include file: 'opencv/cv.h': No such file or directory
+         cvlabel.cpp
+     1>package_tracking\cvblob\cvlabel.cpp(25): fatal error C1083: Cannot open include file: 'opencv/cv.h': No such file or directory
+         cvtrack.cpp
+     1>package_tracking\cvblob\cvtrack.cpp(26): fatal error C1083: Cannot open include file: 'opencv/cv.h': No such file or directory
+     1>Done Building Project "C:\Users\mohamedtarek\Desktop\speed_2_2\project.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.32
